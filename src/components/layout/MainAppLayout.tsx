@@ -15,7 +15,7 @@ const MainAppLayout: React.FC<MainAppLayoutProps> = ({ children, className }) =>
   return (
     <main
       className={cn(
-        'flex min-h-screen w-full items-center justify-center bg-background p-4 sm:p-6',
+        'dark flex min-h-screen w-full items-center justify-center bg-background p-4 sm:p-6',
         className
       )}
     >
